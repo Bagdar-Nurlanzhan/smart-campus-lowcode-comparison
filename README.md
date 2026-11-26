@@ -18,3 +18,9 @@ npm install
 npm test     # 12 tests: T1–T8 plus 4 extra checks
 npm run dev
 ```
+
+## Export
+`low-code/export/` holds the exported app (`.msapp`), its YAML source (`App.pa.yaml`, `Screen1.pa.yaml`) and the App checker result.
+
+## Live demo (code-based)
+https://bagdar-nurlanzhan.github.io/smart-campus-lowcode-comparison/
