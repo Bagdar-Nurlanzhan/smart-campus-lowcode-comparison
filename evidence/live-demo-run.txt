@@ -1,0 +1,9 @@
+Live demo run (GitHub Pages)
+T1 expected [OK] observed [OK] PASS
+T2 expected [OVERLAP] observed [OVERLAP] PASS
+T3 expected [BLOCKED] observed [BLOCKED] PASS
+T4 expected [INVALID_DURATION] observed [INVALID_DURATION] PASS
+T5 expected [INVALID_DURATION] observed [INVALID_DURATION] PASS
+T6 expected [PAST_START] observed [PAST_START] PASS
+T7 expected [OK] observed [OK] PASS
+T8 bookings after checks: 10:00–11:00
