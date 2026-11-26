@@ -1,0 +1,12 @@
+### npm audit
+found 0 vulnerabilities
+
+### secret-like strings in source (excluding node_modules, lock file)
+(no matches)
+
+### HTML sinks in UI code
+6:document.querySelector('#app').innerHTML = `
+43:  // textContent only: user input can never be interpreted as HTML
+44:  $('#badge').textContent = r.available ? 'Available' : 'Unavailable'
+45:  $('#message').textContent = r.message
+46:  $('#code').textContent = `[${r.reasonCode}]`

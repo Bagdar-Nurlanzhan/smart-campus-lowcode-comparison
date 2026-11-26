@@ -1,0 +1,21 @@
+
+ RUN  v5.1.2 <local-path>
+
+ ✓ tests/contract.test.js > common contract > T1 valid free interval 3ms
+ ✓ tests/contract.test.js > common contract > T2 overlap 0ms
+ ✓ tests/contract.test.js > common contract > T3 blocked room 0ms
+ ✓ tests/contract.test.js > common contract > T4 duration 0 0ms
+ ✓ tests/contract.test.js > common contract > T5 duration 121 0ms
+ ✓ tests/contract.test.js > common contract > T6 past start 0ms
+ ✓ tests/contract.test.js > common contract > T7 adjacent interval 0ms
+ ✓ tests/contract.test.js > common contract > T8 booking data unchanged after all checks 1ms
+ ✓ tests/contract.test.js > extra checks (not part of the 8) > AC6: invalid input gives INVALID_INPUT 0ms
+ ✓ tests/contract.test.js > extra checks (not part of the 8) > AC2 boundary: exactly 120 minutes is available 0ms
+ ✓ tests/contract.test.js > extra checks (not part of the 8) > end after 24:00 is OUT_OF_DAY 0ms
+ ✓ tests/contract.test.js > extra checks (not part of the 8) > start equal to the current time is PAST_START 0ms
+
+ Test Files  1 passed (1)
+      Tests  12 passed (12)
+   Start at  15:13:45
+   Duration  428ms (transform 71%, import 19%, tests 5%, worker 5%)
+

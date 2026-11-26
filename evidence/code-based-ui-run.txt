@@ -1,0 +1,9 @@
+T1 | Available | [OK] | Available: room A-204 is free from 12:00 to 13:00.
+T2 | Unavailable | [OVERLAP] | Overlaps an existing booking (10:00–11:00).
+T3 | Unavailable | [BLOCKED] | Room A-204 is blocked and cannot be used.
+T4 | Unavailable | [INVALID_DURATION] | Duration must be between 1 and 120 minutes.
+T5 | Unavailable | [INVALID_DURATION] | Duration must be between 1 and 120 minutes.
+T6 | Unavailable | [PAST_START] | Start time must be later than the current time (09:00).
+T7 | Available | [OK] | Available: room A-204 is free from 11:00 to 12:00.
+T8 | bookings label after checks: 10:00–11:00
+mobile 375px horizontal scroll: false
